@@ -7,5 +7,5 @@ This project identifies a real world policy task of allocating public service pr
 # 311_Data EDA File
 This file cleans the 311 data, conducts feature discovery, variance thresholding, and principal component analysis for clustering, and performs k-means clustering on the data.
 
-# Requirements to Run Project Files:
+# Requirements to Run Project Files
 Please refer to the requirements.txt for installing the necessary Python libraries.
