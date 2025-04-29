@@ -11,5 +11,8 @@ The goal is to identify a real world policy task of allocating public service pr
 # 311_Data EDA File
 This file cleans the 311 data, conducts feature discovery, variance thresholding, and principal component analysis for clustering, and performs k-means clustering on the data.
 
+#Snow Removal Forecast File
+This file uses daily snowfall data to perform time series forecasting for snow removal service requests. It prepares the snow rate data, applies seasonal decomposition, fits time series models, and generates forecasts to support proactive administrative planning. The forecasting analysis helps anticipate spikes in snow/ice-related 311 complaints based on historical snowfall patterns.
+
 # Requirements to Run Project Files
 Please refer to the requirements.txt for installing the necessary Python libraries.
