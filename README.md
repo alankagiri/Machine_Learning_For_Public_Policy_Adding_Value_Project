@@ -11,7 +11,7 @@ The goal of the project is to identify a real world policy task of allocating pu
 # Data
 We obtained the relevant 311 data from https://data.wprdc.org/dataset/311-data/resource/29462525-62a6-45bf-9b5e-ad2e1c06348d. In order to run this code, please download the dataset. For the clustering code, please rename the file to "311_Data.csv". For the forecasting code, please rename the file to "data.csv".
 
-# 311_Data_EDA_and_Unsupervised_Learning File
+# 311_Data_EDA_and_Unsupervised_Learning.ipynb
 This file cleans the 311 data, conducts feature discovery, variance thresholding, and principal component analysis for clustering, and performs k-means clustering on the data to create a "hotspot" map of service requests in the City of Pittsburgh.
 
 # Constants File
