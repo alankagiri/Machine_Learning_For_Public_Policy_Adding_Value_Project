@@ -9,7 +9,7 @@ This project seeks to answer 2 main questions:
 The goal of the project is to identify a real world policy task of allocating public service provisions within the City of Pittsburgh using machine learning. The project conducts EDA with a purpose for ML clustering on the City of Pittsburgh's 311 Data, and reports experiences, observations, and recommendations. The project contains both a time series forecast and clustering analysis. The aim of the time series forecast is to support planning for spikes in complaints like snow/ice removal. The aim of the clustering analysis is to identify and monitor areas with chronic or high-volume service needs.
 
 # Data
-We obtained the relevant 311 data from https://data.wprdc.org/dataset/311-data/resource/29462525-62a6-45bf-9b5e-ad2e1c06348d. In order to run this code, please download the dataset.
+We obtained the relevant 311 data from https://data.wprdc.org/dataset/311-data/resource/29462525-62a6-45bf-9b5e-ad2e1c06348d. In order to run this code, please download the dataset. For the clustering code, please rename the file to "311_Data.csv". For the forecasting code, please rename the file to "data.csv".
 
 # 311_Data_EDA_and_Unsupervised_Learning File
 This file cleans the 311 data, conducts feature discovery, variance thresholding, and principal component analysis for clustering, and performs k-means clustering on the data to create a "hotspot" map of service requests in the City of Pittsburgh.
